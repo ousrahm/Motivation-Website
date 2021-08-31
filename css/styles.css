@@ -1,0 +1,14 @@
+#main_header_container {
+    background-color: #acacac;
+    text-align: center;
+    height: fit-content;
+}
+
+#main_heading {
+    color: rgb(255, 255, 255)
+}
+
+#main_subtitle {
+    color:rgb(255, 255, 255);
+    margin-top: 0px !important; 
+}
