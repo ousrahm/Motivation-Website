@@ -25,6 +25,9 @@
             <a onclick="loadHTML( 'deliverables' )" class="navbar-item has-text-white" style="margin-left: 30px;">
                 Deliverables
             </a>
+            <a onclick="loadHTML( 'clientOverview' )" class="navbar-item has-text-white" style="margin-left: 30px;">
+                Client Overview
+            </a>
         </div>
         <div class="navbar-end">
                 <span style="color:rgb(228, 228, 228); margin:10px;">Website not updating? <br>Try opening this page in a private/incognito window or clearing your cache!</span>
@@ -33,7 +36,6 @@
 
     <script>
         function loadHTML( file_name ){
-            console.log(file_name);
             let main_body = $( '#main-body' );
             main_body.html( "" );
             main_body.load( 'html/' + file_name + '.html' )
